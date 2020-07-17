@@ -140,3 +140,13 @@ series: [
 - color 调色板
 `color:['pink','red','skyblue','green'],`
    - 记得是个数组
+
+### 图表跟随屏幕自适应
+```
+myChart.setOption(option);
+
+//在这之后加入
+window.addEventListener('resize',function(){
+  myChart.resize();
+});
+```

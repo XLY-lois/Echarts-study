@@ -21,11 +21,12 @@ li{
 // }
 body{
     background: url(../imgs/timg.jpg);
+    background-repeat: no-repeat;   //不重复
 }
 header{
     position: relative;
     height: 1.25rem;
-    background-color: rgb(97, 91, 92);
+    background-color: rgba(25, 26, 95, 0.664);
     h1{
         font-size: .475rem;
         color: white;
@@ -61,8 +62,8 @@ header{
     }
     .panel{
         height: 3.875rem;
-        background: rgba(104, 99, 99, 0.5);
-        border: 1px solid gray;
+        background:  rgba(33, 35, 117, 0.664);
+        border: 1px solid rgba(34, 24, 78, 0.671);
         padding: 0 .1875rem .5rem;
         margin-bottom: .1875rem;
         h2{
@@ -72,18 +73,23 @@ header{
             text-align: center;
             font-size: .25rem;
             font-weight: 400;
+            a{
+                color: #fff;
+                text-decoration: none;
+                margin: 0 10px;
+            }
         }
         .charts{
             height: 3rem;
-            background-color: pink;
+            // background-color: pink;
         }
     }
 // 数字模块
     .no{
-        background-color: rgba(104, 99, 99, 0.5);
+        background-color: rgba(31, 32, 117, 0.568);
         padding: .1875rem;
         .no-hd{
-            border: 1px solid gray;
+            border: 1px solid rgba(48, 50, 134, 0.363);
             ul{
                 display: flex;
                 li{
